@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	adapter := NewSmtpAdapter("mail.hosting.reg.ru",
+	adapter := NewSmtpAdapter("smtp.mail.ru",
 		"ilyayaldinov@inbox.ru",
 		"RvSXC4wkVdunpmqkQE89",
 		"ilyayaldinov@inbox.ru", 587)
